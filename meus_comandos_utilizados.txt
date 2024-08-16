@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#Altere as permissões do arquivo
+comando ultilizado chmod +x calculadora2.sh
+#Defina as permissões para que apenas o proprietário tenha permissão de escrita e os outros tenham apenas permissão de leitura
+comando utilizado chmod 644 calculadora2.sh
+# Execute o script da calculadora
+comando utilizado ./calculadora2.sh
